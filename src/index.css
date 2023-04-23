@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.bg{
+  background-color: #0C4379;
+}
+.width{width: 240px;}
+
+.fontweight{
+   font-weight: 400; color: #e38383;
+}
+
+.primary{color: blue;}
+.grow {
+  transition: all .2s ease-in-out;
+}
+.staff{
+  background-color:rgb(5, 146, 206) ;
+}
+
+.pointer{cursor: pointer;}
+
+.decoration{
+  text-decoration: none;
+}
+
+.patient{
+  height: 100vh;
+  overflow-y: scroll;
+  
+}
+/* .scroll{
+overflow-y: scroll;
+height: 85vh;
+} */
+.patient::-webkit-scrollbar {
+width: 0.625rem;
+}
+
+
+.patient::-webkit-scrollbar-track {
+background: #b6e7f9 ; 
+}
+
+.lihover{padding: 10px;}
+.lihover:hover{background-color: rgb(232,40,6)}
+
+
+.patient::-webkit-scrollbar-thumb {
+background: #33b5e5; 
+}
+
+
+
+
+.bgcolor{
+background-color: #2770a0;
+}
+.bgcolor2{
+background-color: #0f4fb5;
+}
+
+html{scroll-behavior: smooth;}
+::-webkit-scrollbar{width: 0.625rem;}
+::-webkit-scrollbar-track{background-color:#b6e7f9 ;}
+::-webkit-scrollbar-thumb{background-color: #33b5e5;}
+::-webkit-scrollbar-thumb:hover{background-color: #33b5e5; cursor: pointer;}
+
+.box{
+height: 20px;width: 100%;
+}
+
+.bgstyle{
+  background-color:red; 
+}
+
+.fixed{
+  position: static; 
+}
+
+.margin{margin-left: 724px;}
+
+.textbox-width{width: 123px; }
+.wid{padding: .40rem .5rem; margin: 0 0 0 10px;}
