@@ -27,7 +27,7 @@ function Newpatient() {
         fetch("https://www.medicalplanet.in/webapi/Hospital/doctorforhospital", requestOptions)
             .then(response => response.json())
             .then(data => {
-                // console.log(data);
+                console.log(data);
                 updateDid(data);
             })
     }
